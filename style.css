@@ -1,0 +1,34 @@
+.square{
+    border: 1.5px solid;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+    border-color: black;
+}
+body{
+    margin: 10px;
+    margin-left: 50px;
+    padding: 10px;
+    background-color:cornsilk;
+}
+.orange{
+    background-color:orange;
+}
+button{
+    margin: 20px;
+    box-shadow: 0 0 10px 0 #0008;
+    border-radius: 5px;
+    background-color:darkred;
+    color:white;
+}
+
+table{
+    display:inline-table;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 430px;
+}
