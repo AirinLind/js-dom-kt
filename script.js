@@ -1,3 +1,8 @@
+let arr = []
+for (let i = 0; i < 31; ++i) {
+    arr[i] = genNum()
+}
+
 function addSquare() {
     return `<td></td>`
 }
@@ -7,16 +12,20 @@ function addStr() {
 }
 
 let tabbody = document.body.childNodes[3].childNodes[1]
-console.log(tabbody)
+// console.log(tabbody)
+
+// let numbers = Array.from({length: 30}, () => Math.floor(Math.random() * 100));
+// console.log(numbers)
 
 function genNum() {
-    return Math.floor(Math.random() * 99)
+    return Math.floor(Math.random() * 100)
 }
 
-let arr = []
-for (let i = 0; i < 31; ++i) {
-    arr[i] = genNum()
-}
+// let arr = []
+// for (let i = 0; i < 100; i++){
+//     arr.push(Math.floor(Math.random() * 100));
+// }
+
 
 function genSquare() {
     let number = genNum()
